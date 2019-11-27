@@ -12,7 +12,7 @@ namespace tabuleiro
             this.coluna = coluna;
         }
 
-        public override string ToString()
+        public override string ToString()  // sobreposição
         {
             return linha
                 + ", "
